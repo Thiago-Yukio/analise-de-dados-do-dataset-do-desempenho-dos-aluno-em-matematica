@@ -63,3 +63,6 @@ Desenvolver e comparar modelos capazes de prever se um estudante será aprovado 
 
 # Conclusão:
 
+Diante das análises dos modelos treinados e avaliados por meio das métricas de desempenho, conclui-se que o RandomForestRegressor apresentou o melhor desempenho para a tarefa de previsão das notas de Matemática, obtendo R² = 0,9046, MAE = 0,9392 e RMSE = 1,4502. Esses resultados indicam que o modelo foi capaz de explicar aproximadamente 90,46% da variabilidade das notas, além de apresentar baixo erro médio nas previsões, tornando-o o modelo mais recomendado para problemas de regressão neste estudo.
+
+Para a tarefa de classificação, cujo objetivo é prever se um estudante será aprovado ou reprovado na disciplina de Matemática, o modelo KNeighborsClassifier apresentou o melhor desempenho, alcançando acurácia de 0,8397 (83,97%), precisão de 0,8255 (82,55%) e recall de 0,8397 (83,97%). Esses resultados demonstram um bom equilíbrio entre a capacidade do modelo de identificar corretamente os estudantes e a confiabilidade de suas previsões, tornando-o o modelo mais indicado para essa tarefa de classificação.
